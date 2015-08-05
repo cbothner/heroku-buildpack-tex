@@ -10,7 +10,7 @@ make_tempfile() {
   mktemp -t texlive.XXXXXX
 }
 
-PKGS_ADD="fontspec float eurosym tabto-ltx vntex"
+PKGS_ADD="fourier"
 PKGS_REMOVE="amsfonts koma-script"
 
 REPO="http://ctan.mines-albi.fr"
